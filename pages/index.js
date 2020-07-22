@@ -19,23 +19,23 @@ export default function Home() {
         </nav>
       </header>
       <main>
-        <div className='main-grid p-16 m-4 '>
-          <h1 className='main-title sm:text-xl md:text-2xl lg:text-5xl xl:text-6xl font-bold'>
+        <div className='main-grid p-16 m-4  '>
+          <h1 className='main-title  sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-bold '>
             JACKSON BROTHERS
             <br /> BARBERSHOP
           </h1>
+          <div className='main-image'>
+            <img className='' src='/barber-1.jpg' />
+          </div>
           <div className='bits'>
-            <p className='main-intro text-lg font-serif'>
+            <p className='main-intro text-lg font-serif mb-8'>
               New barbershop using old school methods for cutting mens hair
             </p>
-            <div className='main-btn-wrapper'>
+            <div className='main-btn-wrapper mb-8'>
               <button className='bg-orange-600 hover:bg-orange-700 text-white  py-2 px-4 rounded'>
                 <a>BOOK NOW</a>
               </button>
             </div>
-          </div>
-          <div className='main-image'>
-            <img className='' src='/barber-1.jpg' />
           </div>
         </div>
       </main>
