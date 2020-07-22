@@ -2,30 +2,42 @@ import Head from 'next/head';
 
 export default function Home() {
   return (
-    <div className='container'>
+    <div className='container mx-auto'>
       <Head>
         <title>Traditional Barber Shop</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <nav>
-        <div className='p-5 m-5 rounded shadow bg-gray-200'>Hello Tailwind</div>
-        <ul>
-          <li>TESTIMONIALS</li>
-          <li>CONTACT</li>
-          <li>LOGO</li>
-          <li>GALLERY</li>
-          <li>ABOUT US</li>
-        </ul>
-      </nav>
+      <header className=' items-center justify-between max-w-4xl mx-auto p-4 md:p-8'>
+        <nav>
+          <ul className='flex justify-between'>
+            <li>TESTIMONIALS</li>
+            <li>CONTACT</li>
+            <li>LOGO</li>
+            <li>GALLERY</li>
+            <li>ABOUT US</li>
+          </ul>
+        </nav>
+      </header>
       <main>
-        <div>
-          <h1>Jackson Brothers Barber Shop</h1>
-          <p>New barbershop using old school methods for cutting mens hair</p>
-          <button className='text-purple-500 hover:text-white hover:bg-purple-500 border border-purple-500 text-xs font-semibold rounded-full px-4 py-1 leading-normal'>
-            <a>BOOK NOW</a>
-          </button>
+        <div className='main-grid p-16 m-4 '>
+          <h1 className='main-title sm:text-xl md:text-2xl lg:text-5xl xl:text-6xl font-bold'>
+            JACKSON BROTHERS
+            <br /> BARBERSHOP
+          </h1>
+          <div className='bits'>
+            <p className='main-intro text-lg font-serif'>
+              New barbershop using old school methods for cutting mens hair
+            </p>
+            <div className='main-btn-wrapper'>
+              <button className='bg-orange-600 hover:bg-orange-700 text-white  py-2 px-4 rounded'>
+                <a>BOOK NOW</a>
+              </button>
+            </div>
+          </div>
+          <div className='main-image'>
+            <img className='' src='/barber-1.jpg' />
+          </div>
         </div>
-        <div className='h-12 w-12 bg-red'>IMAGE GOES HERE</div>
       </main>
     </div>
   );
