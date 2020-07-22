@@ -18,7 +18,7 @@ export default function Home() {
       </nav>
       <main>
         <div>
-          <h1 className='title'>Jackson Brothers Barber Shop</h1>
+          <h1>Jackson Brothers Barber Shop</h1>
           <p>New barbershop using old school methods for cutting mens hair</p>
           <div>
             <a>BOOK NOW</a>
