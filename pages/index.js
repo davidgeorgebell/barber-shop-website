@@ -19,13 +19,12 @@ export default function Home() {
         </nav>
       </header>
       <main>
-        <div className='main-grid p-16 m-4  '>
-          <h1 className='main-title  sm:text-4xl md:text-5xl lg:text-5xl xl:text-5xl font-bold '>
-            JACKSON BROTHERS
-            <br /> BARBERSHOP
+        <div className='main-grid   '>
+          <h1 className='main-title text-2xl md:text-5xl lg:text-5xl xl:text-5xl font-bold'>
+            JACKSON BROTHERS BARBERSHOP
           </h1>
-          <div className='main-image'>
-            <img className='' src='/barber-1.jpg' />
+          <div className='main-image   mt-8'>
+            <img className='rounded-lg shadow-xl ' src='/barber-1.jpg' />
           </div>
           <div className='bits'>
             <p className='main-intro text-lg font-serif mb-8'>
