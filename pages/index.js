@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
       <header className='flex justify-center pb-8'>
         <nav className='pt-4'>
-          <h3 className='font-serif text-5xl font-bold text-yellow-600'>JB</h3>
+          <h3 className='text-5xl font-serif text-yellow-500 font-bold'>JB</h3>
         </nav>
       </header>
       <main>
@@ -26,8 +26,8 @@ export default function Home() {
               New barbershop using old school methods for cutting mens hair
             </p>
             <div className='main-btn-wrapper mb-8'>
-              <button className='bg-yellow-600 hover:bg-yellow-700 text-gray-900  py-2 px-4 rounded shadow-xl'>
-                <Link href='/contact'>
+              <button className='bg-yellow-500 hover:bg-yellow-600 text-black  py-2 px-4 rounded shadow-xl'>
+                <Link href='contact'>
                   <a>BOOK NOW</a>
                 </Link>
               </button>
