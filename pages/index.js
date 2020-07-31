@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
       </Head>
       <header className='flex justify-center pb-8'>
         <nav className='pt-4'>
-          <span>Logo</span>
+          <h3 className='font-serif text-5xl font-bold text-yellow-600'>JB</h3>
         </nav>
       </header>
       <main>
@@ -21,12 +22,14 @@ export default function Home() {
             <img className='rounded-lg shadow-xl ' src='/barber-1.jpg' />
           </div>
           <div className='bits'>
-            <p className='main-intro text-lg font-serif mb-8 text-grey-800'>
+            <p className='main-intro text-lg font-serif mb-8 text-gray-300'>
               New barbershop using old school methods for cutting mens hair
             </p>
             <div className='main-btn-wrapper mb-8'>
               <button className='bg-yellow-600 hover:bg-yellow-700 text-gray-900  py-2 px-4 rounded shadow-xl'>
-                <a>BOOK NOW</a>
+                <Link href='/contact'>
+                  <a>BOOK NOW</a>
+                </Link>
               </button>
             </div>
           </div>
