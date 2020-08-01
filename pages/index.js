@@ -13,9 +13,9 @@ export default function Home() {
       </Head>
 
       <div className='main-grid'>
-        <h1 className='main-title text-3xl md:text-5xl lg:text-5xl xl:text-5xl font-bold text-white'>
+        <h2 className='main-title text-3xl md:text-5xl lg:text-5xl xl:text-5xl font-bold text-white'>
           <AnimationY>JACKSON BROTHERS BARBERSHOP</AnimationY>
-        </h1>
+        </h2>
         <div className='main-image mt-4'>
           <img
             className='rounded-lg shadow-xl '
