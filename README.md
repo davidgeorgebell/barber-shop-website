@@ -6,6 +6,6 @@
 - React
 - Tailwind CSS
 
-<img src='/screen-1.png' />
+<img src='./screen-1.png' />
 
-<img src='/screen-2.png' />
+<img src='./screen-2.png' />
