@@ -9,7 +9,7 @@ export default function Home() {
     <Layout>
       <Head>
         <title>Traditional Barber Shop</title>
-        <link rel='icon' href='/favicon.ico' />
+        <link rel='icon' href='/razor.png' />
       </Head>
 
       <div className='main-grid'>
