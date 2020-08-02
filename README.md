@@ -5,6 +5,7 @@
 - Nextjs
 - React
 - Tailwind CSS
+- Framer Motion (Animations)
 
 <img src='/public/screen-1.png' />
 
